@@ -1,0 +1,10 @@
+CS 426 Assignment 6 Schedule 
+
+3/11 - Setup github (30 mins)  Start testing best way to implement ball physics(1 hour)
+
+3/12 - Work on implementing the ball physics (3 hours)
+
+3/14 - Implement dashing and double jumping along with landing physics(4 hours)
+
+3/16 - Play test and fix bugs(3 hours)
+
