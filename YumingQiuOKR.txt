@@ -1,6 +1,6 @@
 CS 426 Assignment 6 Schedule 
 
-3/11 - Setup github (30 mins)  Start testing best ways to implement ball physics(1 hour)
+3/11 - Setup github (30 mins)  Start testing best way to implement ball physics(1 hour)
 
 3/12 - Work on implementing the ball physics (3 hours)
 
