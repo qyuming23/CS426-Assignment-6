@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool canDoubleJump = false;
 
-    private float directionY;
+    private float directionY = 0;
 
     private float gravity = 9.81f;
 
@@ -36,34 +36,36 @@ public class PlayerMovement : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+        float targetangle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+        float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetangle, ref turnSmoothVelocity, turnsmoothtime);
+        transform.rotation = Quaternion.Euler(0f, angle, 0f);
+        Vector3 moveDir = new Vector3(horizontal, 0f, vertical).normalized;
 
         if(direction.magnitude >= 0.1f){
-            float targetangle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetangle, ref turnSmoothVelocity, turnsmoothtime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-            Vector3 moveDir = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * speed * Time.deltaTime);
-
-            if(controller.isGrounded){
-                canDoubleJump = true;
-                if(Input.GetButtonDown("Jump")){
-                    directionY = jumpspeed;
-                }
-            }
-            else{
-                if(Input.GetButtonDown("Jump")){
-                    directionY = jumpspeed * doubleJumpMultiplier;
-                    canDoubleJump = false;
-                }
-            }
-
-            directionY -= gravity * Time.deltaTime;
-
-            moveDir.y = directionY;
-            
+            moveDir = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
             controller.Move(moveDir * speed * Time.deltaTime);
         }
 
+        if(controller.isGrounded){
+            canDoubleJump = true;
+            if(Input.GetButtonDown("Jump")){
+                directionY = jumpspeed;
+            }
+        }
+        else{
+            if(Input.GetButtonDown("Jump")){
+                directionY = jumpspeed * doubleJumpMultiplier;
+                canDoubleJump = false;
+            }
+        }
+
+        if(!controller.isGrounded){
+          directionY -= gravity * Time.deltaTime;      
+        }
         
+        moveDir.y = directionY;
+            
+        controller.Move(moveDir * speed * Time.deltaTime);
+
     }
 }
