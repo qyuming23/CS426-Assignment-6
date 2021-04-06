@@ -28,6 +28,7 @@ public class patrollingAI : MonoBehaviour
     void increaseIndex()
     {
         wayPointIndex++;
+        if (wayPointIndex >= waypoints.Length)
             wayPointIndex = 0;
 
         transform.LookAt(waypoints[wayPointIndex].position);
