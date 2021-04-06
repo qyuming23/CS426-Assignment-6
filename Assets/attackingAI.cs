@@ -41,12 +41,13 @@ public class attackingAI : MonoBehaviour
 
         if (!playerInSightRange && !playerInAttackRange) 
             Patroling();
-        if (playerInSightRange && !playerInAttackRange) 
-            ChasePlayer();
+        //if (playerInSightRange && !playerInAttackRange) 
+            //ChasePlayer();
         if (playerInAttackRange && playerInSightRange) 
             AttackPlayer();
     }
 
+    //Patrolling Method
     private void Patroling()
     {
         if (!walkPointSet) SearchWalkPoint();
@@ -60,12 +61,15 @@ public class attackingAI : MonoBehaviour
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
     }
+
+    //Searches for the next available walk point
     private void SearchWalkPoint()
     {
         //Calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
+        //This part is where we actually find the random point
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
@@ -89,7 +93,7 @@ public class attackingAI : MonoBehaviour
             ///Attack code here
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 1f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
