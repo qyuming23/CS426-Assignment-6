@@ -24,9 +24,12 @@ public class PlayerMovement : MonoBehaviour
 
     private float doubleJumpMultiplier = 1.2f;
 
+    public AudioSource jumpSound;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        jumpSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -50,12 +53,15 @@ public class PlayerMovement : MonoBehaviour
             canDoubleJump = true;
             if(Input.GetButtonDown("Jump")){
                 directionY = jumpspeed;
+                jumpSound.Play();
             }
         }
         else{
             if(Input.GetButtonDown("Jump")){
                 directionY = jumpspeed * doubleJumpMultiplier;
                 canDoubleJump = false;
+                jumpSound.Play();
+                jumpSound.Play();
             }
         }
 

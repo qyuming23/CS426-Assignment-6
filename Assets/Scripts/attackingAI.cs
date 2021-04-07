@@ -13,6 +13,9 @@ public class attackingAI : MonoBehaviour
 
     public float health;
 
+    public AudioSource intruderSound;
+    bool attacking;
+
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
@@ -31,6 +34,8 @@ public class attackingAI : MonoBehaviour
     {
         player = GameObject.Find("Player").transform;
         enemy = GetComponent<NavMeshAgent>();
+        intruderSound = GetComponent<AudioSource>();
+        attacking = false;
     }
 
     private void Update()
@@ -48,6 +53,12 @@ public class attackingAI : MonoBehaviour
     //Patrolling Method
     private void Patroling()
     {
+
+        if (attacking == true)
+        {
+            attacking = false;
+        }
+
         if (!walkPointSet) SearchWalkPoint();
 
         if (walkPointSet)
@@ -74,11 +85,6 @@ public class attackingAI : MonoBehaviour
             walkPointSet = true;
     }
 
-    private void ChasePlayer()
-    {
-        enemy.SetDestination(player.position);
-    }
-
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
@@ -89,11 +95,18 @@ public class attackingAI : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
+            
+            if (!attacking)
+            {
+                intruderSound.Play();
+                attacking = true;
+            }
+
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 1f, ForceMode.Impulse);
             ///End of attack code
-
+        
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
