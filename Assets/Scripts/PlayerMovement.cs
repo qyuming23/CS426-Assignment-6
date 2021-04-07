@@ -26,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource jumpSound;
 
+    private float dashTime = .30f;
+
+    private float dashSpeed = 20;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -44,11 +48,6 @@ public class PlayerMovement : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, angle, 0f);
         Vector3 moveDir = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if(direction.magnitude >= 0.1f){
-            moveDir = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
-            controller.Move(moveDir * speed * Time.deltaTime);
-        }
-
         if(controller.isGrounded){
             canDoubleJump = true;
             if(Input.GetButtonDown("Jump")){
@@ -65,6 +64,12 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if(direction.magnitude >= 0.1f){
+            moveDir = Quaternion.Euler(0f, targetangle, 0f) * Vector3.forward;
+            controller.Move(moveDir * speed * Time.deltaTime);
+        }
+
+
         if(!controller.isGrounded){
           directionY -= gravity * Time.deltaTime;      
         }
@@ -73,5 +78,17 @@ public class PlayerMovement : MonoBehaviour
             
         controller.Move(moveDir * speed * Time.deltaTime);
 
+        if(Input.GetKeyDown(KeyCode.F)){
+            StartCoroutine(Dash(moveDir));
+        }
+    }
+
+    IEnumerator Dash(Vector3 moveDir){
+        float startTime = Time.time;
+
+        while(Time.time < startTime + dashTime){
+            controller.Move(moveDir * dashSpeed * Time.deltaTime);
+            yield return null;
+        }
     }
 }
