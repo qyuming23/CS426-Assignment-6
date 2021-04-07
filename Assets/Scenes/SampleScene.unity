@@ -1473,7 +1473,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364792709}
-  m_LocalRotation: {x: 0.15357117, y: -0.000000029650742, z: 0.000000004608163, w: 0.9881376}
+  m_LocalRotation: {x: 0.15357114, y: 0.0000000034547663, z: -5.369219e-10, w: 0.9881376}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2363,8 +2363,6 @@ MonoBehaviour:
   speed: 6
   turnsmoothtime: 0.1
   cam: {fileID: 1515755780}
-  dashSpeed: 20
-  dashTime: 0.25
 --- !u!135 &681986461
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3449,8 +3447,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 681986464}
-  teleportTarget: {fileID: 0}
-  player: {fileID: 0}
 --- !u!195 &976006018
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4828,7 +4824,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515755776}
-  m_LocalRotation: {x: 0.1362929, y: 0.000000027015647, z: -0.0000000037167236, w: 0.9906686}
+  m_LocalRotation: {x: 0.1362929, y: 0.000000029670868, z: -0.0000000040820196, w: 0.9906686}
   m_LocalPosition: {x: 21.04, y: 8.220051, z: -18.014805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
