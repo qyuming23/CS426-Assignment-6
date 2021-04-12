@@ -80,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.F)){
             StartCoroutine(Dash(moveDir));
+
         }
     }
 

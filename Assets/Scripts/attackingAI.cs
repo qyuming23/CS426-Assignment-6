@@ -30,6 +30,8 @@ public class attackingAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    public float lifeTime = 5f;
+
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -124,7 +126,7 @@ public class attackingAI : MonoBehaviour
     }
     private void DestroyEnemy()
     {
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 
     private void OnDrawGizmosSelected()
