@@ -12,11 +12,14 @@ public class teleportScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        player.transform.position = teleportTarget.transform.position;
-        sound.Play();
-        Debug.Log("trigger");
-        sound2.Stop();
-        sound3.Play();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            player.transform.position = teleportTarget.transform.position;
+            sound.Play();
+            Debug.Log("Teleport Activated");
+            sound2.Stop();
+            sound3.Play();
+        }
     }
 
 }
