@@ -13,7 +13,6 @@ public class push_bulletScript : MonoBehaviour
         {
             Vector3 direction = collision.transform.position - transform.position;
             rb.AddForce(direction.normalized * power, ForceMode.Impulse);
-            MeshRenderer targetMesh = GetComponent<MeshRenderer>();
         }
 
     }

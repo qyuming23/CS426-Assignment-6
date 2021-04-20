@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (18)
@@ -272,6 +276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -476,6 +484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (19)
@@ -618,6 +630,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &99984975
@@ -671,6 +687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (4)
@@ -878,6 +898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (11)
@@ -1458,7 +1482,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167245422}
-  m_LocalRotation: {x: 0.11757573, y: -0.000000017612916, z: 0.000000002085315, w: 0.9930639}
+  m_LocalRotation: {x: 0.11757573, y: 0.000000017612912, z: -0.0000000020853146, w: 0.9930639}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1517,7 +1541,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2005,6 +2029,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (12)
@@ -2101,7 +2129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2162,6 +2190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2352,6 +2384,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (15)
@@ -2409,6 +2445,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (13)
@@ -2616,6 +2656,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (14)
@@ -2685,6 +2729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &306124937
@@ -2848,6 +2896,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (8)
@@ -3252,6 +3304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (24)
@@ -3313,6 +3369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (9)
@@ -3385,7 +3445,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364792709}
-  m_LocalRotation: {x: 0.15357113, y: -0.000000017002273, z: 0.0000000026424036, w: 0.9881376}
+  m_LocalRotation: {x: 0.15357114, y: 0.00000001700227, z: -0.0000000026424036, w: 0.9881376}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3591,6 +3651,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (25)
@@ -3648,6 +3712,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (3)
@@ -3725,6 +3793,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &411172795 stripped
@@ -4046,7 +4118,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4146,6 +4218,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (9)
@@ -4258,6 +4334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -4466,6 +4546,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (5)
@@ -4638,6 +4722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -4838,6 +4926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -4955,6 +5047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &576919824
@@ -5008,6 +5104,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (1)
@@ -5377,6 +5477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (5)
@@ -5899,6 +6003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (9)
@@ -6063,6 +6171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (20)
@@ -6124,6 +6236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (18)
@@ -6141,6 +6257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11121,6 +11241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (7)
@@ -11138,6 +11262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 110
@@ -11342,6 +11470,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (16)
@@ -11411,6 +11543,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &840471029
@@ -11486,6 +11622,101 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 3b49ba4caed9c124d8c7b0fe5800cec2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568718c9218a73b408c78557635e2f83, type: 3}
+--- !u!1 &840716069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840716073}
+  - component: {fileID: 840716072}
+  - component: {fileID: 840716071}
+  - component: {fileID: 840716070}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &840716070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840716069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &840716071
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840716069}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &840716072
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840716069}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &840716073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840716069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.13, y: 31.21, z: 266.49988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 158
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &844953551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11537,6 +11768,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (7)
@@ -11611,6 +11846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &862590400
@@ -12266,6 +12505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (5)
@@ -12514,6 +12757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13129,6 +13376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -13199,10 +13450,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1251327410377399535, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881562858985303257, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4881562858985303259, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5116975777245975866, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -13247,6 +13506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5116975777245975868, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5116975777245975870, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_Name
       value: grid-hollow (1)
@@ -13259,6 +13522,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5153950485894469243, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
 --- !u!1001 &1043119855
@@ -13462,6 +13729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (6)
@@ -13519,6 +13790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (14)
@@ -13740,6 +14015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -13888,7 +14167,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13984,7 +14263,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b95845b19c80a4746b8ea1ecac2456c4, type: 2}
+  - {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14079,6 +14358,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (21)
@@ -14200,6 +14483,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (23)
@@ -14261,6 +14548,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (4)
@@ -14516,6 +14807,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (16)
@@ -14581,6 +14876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &1258778794 stripped
@@ -14668,6 +14967,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &1306147535
@@ -14725,6 +15028,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (22)
@@ -15070,6 +15377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (2)
@@ -15208,6 +15519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!4 &1339052462 stripped
@@ -15321,6 +15636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -15446,6 +15765,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &1381473331
@@ -15604,6 +15927,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &1401419283
@@ -16066,6 +16393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &1492246744
@@ -16123,6 +16454,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (12)
@@ -16245,6 +16580,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (17)
@@ -16379,7 +16718,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b95845b19c80a4746b8ea1ecac2456c4, type: 2}
+  - {fileID: 2100000, guid: 94b2d528df27b254da90f056f1e2936b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16474,6 +16813,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (17)
@@ -16591,7 +16934,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515755776}
-  m_LocalRotation: {x: 0.13629289, y: -0.000000029706921, z: 0.0000000040869796, w: 0.9906686}
+  m_LocalRotation: {x: 0.13629289, y: -0.000000026979592, z: 0.0000000037117625, w: 0.9906686}
   m_LocalPosition: {x: 26.7, y: 14.19005, z: -31.884804}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -16722,6 +17065,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (6)
@@ -16831,7 +17178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16930,6 +17277,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (13)
@@ -16947,6 +17298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -17465,6 +17820,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17574,6 +17933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (26)
@@ -17635,6 +17998,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (15)
@@ -17789,6 +18156,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (10)
@@ -18032,6 +18403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -18518,7 +18893,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18829,6 +19204,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (3)
@@ -18846,6 +19225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -18960,6 +19343,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (23)
@@ -19021,6 +19408,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (4)
@@ -19222,6 +19613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &1788784259
@@ -19417,6 +19812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (8)
@@ -19795,6 +20194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (10)
@@ -19925,6 +20328,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (11)
@@ -20031,6 +20438,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (20)
@@ -20048,6 +20459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -20390,6 +20805,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1 &1962215605
@@ -20613,7 +21032,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20725,6 +21144,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &1967860863
@@ -20782,6 +21205,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (19)
@@ -20843,6 +21270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (1)
@@ -20860,6 +21291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_border - XXL (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5879964254088161026, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5879964254088161028, guid: 81db5362ac9757d429bb4663342cb68e, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -21123,6 +21558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5973229764286830369, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5973229764286830371, guid: f72fded6ab436ee4e8794090a81e6878, type: 3}
       propertyPath: m_Name
       value: jumpPlatform - Small (6)
@@ -21419,6 +21858,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9cb26cfbf0c68d04bb816cc96fab853f, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole (21)
@@ -21737,6 +22180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: jumpPlatform (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236764922608233798, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8ef0a916688a974e8bc5dbd519d4470, type: 3}
 --- !u!1001 &2078138178
@@ -21888,6 +22335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grid_wall - medium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733261183269390003, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 1733261183269390005, guid: 51b1e5dc31c1d494d9f8871dad4d0e3c, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -22127,6 +22578,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4881429690549087235, guid: affd78932e35d474a87279390a13fe5f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881429690549087245, guid: affd78932e35d474a87279390a13fe5f, type: 3}
       propertyPath: m_Name
       value: Teleport Pad (8)
@@ -22490,6 +22945,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4312584609630243283, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c53ef27707f0224398723a6b8f71050, type: 2}
     - target: {fileID: 4312584609630243285, guid: 31875ca32aaf8e44ea73d4e1dfea0a85, type: 3}
       propertyPath: m_Name
       value: Jump Pole
@@ -22564,10 +23023,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1251327410377399535, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 4881562858985303257, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4881562858985303259, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5116975777245975866, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -22612,6 +23079,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5116975777245975868, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     - target: {fileID: 5116975777245975870, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
       propertyPath: m_Name
       value: grid-hollow
@@ -22624,6 +23095,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5153950485894469243, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 94cd6e7258c51154bbd03c2bb906b695, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e34cdbe4bfcf2149aae7e7ed8d77e95, type: 3}
 --- !u!1001 &5879964254179354257
