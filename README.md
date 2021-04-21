@@ -19,4 +19,8 @@ CS 426 Assignment 8 added features:
 -Added new background music to each level. This is to give each level a different feel.
 -Added a new feature that teleports the player back to a checkpoint in a case where the player falls. Required because there's no way back up.
 
-
+CS 426 Assignment 9 added features:
+- We added a new dash because our test users said that it was too clunky.
+- We added better box coliders for platforms.
+- We added 3 shaders to the maps to make the look of the game more sophisticated. It makes the game look better, since it matches our theme better as well.
+- We also added a credit and instruction screen for the requirements.
