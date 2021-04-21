@@ -273,18 +273,46 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thank You For Playing Tower Climber:Ball Edition
+  m_text: 'Thank You For Playing Tower Climber: Ball Edition
+
+    A UIC CS 426 Videogame
+    Design Project
 
 
-    Made by: Yuming
-    Qiu, Eric Ablang, Jia Yang Kuang
+    Made by: Yuming Qiu, Eric Ablang, Jia  Kuang
 
-    as a project for UIC CS426 Videogame Design
 
+    Resoucres
+    & Code
+
+    Animation & Rig: Maximo.com
+
+    Navmesh: https://github.com/Unity-Technologies/NavMeshComponents
 
     Sounds:
     freesounds.org
 
+    Wallart: Synthwave Green - Pintrest.com
+
+    Black void wallpaper:
+    https://deepluciddreaming.com/2015/05/the-lucid-void/
+
+    Retro mountain: https://www.freepik.com
+
+    Green
+    retro: https://wallpapersmug.com/
+
+    Tower picture: https://wiki.dfo-world.com/view/Category:Sky_Tower_dungeons
+
+    Soccer
+    Ball: https://www.heattransferwarehouse.com/flat-soccer-ball-pattern-adhesive-vinyl/
+
+
+    https://www.youtube.com/watch?v=UjkSFoLxesw&t=1s&ab_channel=Dave%2FGameDevelopment
+
+    https://www.youtube.com/watch?v=QyqSoz2ivOk&ab_channel=Ajackster
+
+    https://www.youtube.com/watch?v=59No0ybIoxg&ab_channel=DenizSimsek
 
 '
   m_isRightToLeft: 0
@@ -295,8 +323,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294906091
-  m_fontColor: {r: 0.92028654, g: 0.06132078, b: 1, a: 1}
+    rgba: 4289855248
+  m_fontColor: {r: 0.062745094, g: 1, b: 0.6926726, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -313,8 +341,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.2
-  m_fontSizeBase: 67.2
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -349,7 +377,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -585.2363, y: -350.25616, z: -1137.2716, w: -445.51855}
+  m_margin: {x: -585.2363, y: -555.9717, z: -897.5819, w: -445.51855}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
