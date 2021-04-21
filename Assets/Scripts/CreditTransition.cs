@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CreditTransition : MonoBehaviour
 {
-    void onTriggerEnter(Collider collider){
+    void OnTriggerEnter(Collider collider){
         if(collider.tag == "Player"){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
