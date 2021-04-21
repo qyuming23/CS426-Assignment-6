@@ -30,6 +30,14 @@ public class PlayerMovement : MonoBehaviour
 
     private float dashSpeed = 20;
 
+    private Vector3 moveDir;
+
+    public bool isDashing;
+
+    private int dashAttempts;
+
+    private float dashStarttime;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -46,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         float targetangle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetangle, ref turnSmoothVelocity, turnsmoothtime);
         transform.rotation = Quaternion.Euler(0f, angle, 0f);
-        Vector3 moveDir = new Vector3(horizontal, 0f, vertical).normalized;
+        moveDir = new Vector3(horizontal, 0f, vertical).normalized;
 
         if(controller.isGrounded){
             canDoubleJump = true;
@@ -78,18 +86,37 @@ public class PlayerMovement : MonoBehaviour
             
         controller.Move(moveDir * speed * Time.deltaTime);
 
-        if(Input.GetKeyDown(KeyCode.F)){
-            StartCoroutine(Dash(moveDir));
+        HandleDash();
+    }
 
+    void HandleDash(){
+        bool isTryingtoDash = Input.GetKeyDown(KeyCode.F);
+
+        if(isTryingtoDash && !isDashing){
+            if(dashAttempts <= 50){
+                startDash();
+            }
+        }
+        
+        if(isDashing){
+            if(Time.time - dashStarttime <= 0.4f){
+                controller.Move(transform.forward * 30f * Time.deltaTime);
+            }
+            else{
+                endDash();
+            }
         }
     }
 
-    IEnumerator Dash(Vector3 moveDir){
-        float startTime = Time.time;
+    void startDash(){
+        isDashing = true;
+        dashStarttime = Time.time;
+        dashAttempts += 1;
+    }
 
-        while(Time.time < startTime + dashTime){
-            controller.Move(moveDir * dashSpeed * Time.deltaTime);
-            yield return null;
-        }
+    void endDash(){
+        isDashing = false;
+        dashStarttime = 0;
+
     }
 }
