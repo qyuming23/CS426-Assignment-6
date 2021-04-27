@@ -9,10 +9,13 @@ public class followAI : MonoBehaviour
     NavMeshAgent nav;
     public Transform teleportTarget;
     public GameObject player;
+   // public AudioSource warningSound;
+
     // Start is called before the first frame update
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        
     }
 
     // Update is called once per frame
@@ -25,5 +28,10 @@ public class followAI : MonoBehaviour
     {
         player.transform.position = teleportTarget.transform.position;
         Debug.Log("trigger");
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+      ///  warningSound.Stop();
     }
 }

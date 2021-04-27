@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource jumpSound;
 
+    public AudioSource dashSound;
+
     private float dashTime = .30f;
 
     private float dashSpeed = 20;
@@ -41,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        jumpSound = GetComponent<AudioSource>();
+    
     }
 
     // Update is called once per frame
@@ -92,9 +94,10 @@ public class PlayerMovement : MonoBehaviour
     void HandleDash(){
         bool isTryingtoDash = Input.GetKeyDown(KeyCode.F);
 
-        if(isTryingtoDash && !isDashing){
+        if (isTryingtoDash && !isDashing){
             if(dashAttempts <= 50){
                 startDash();
+                dashSound.Play();
             }
         }
         
