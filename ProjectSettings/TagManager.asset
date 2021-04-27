@@ -7,6 +7,9 @@ TagManager:
   - Fire
   - Bullet
   - Falling
+  - SpeedBoost
+  - JumpBoost
+  - SlowDown
   layers:
   - Default
   - TransparentFX

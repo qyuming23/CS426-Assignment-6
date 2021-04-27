@@ -122,4 +122,24 @@ public class PlayerMovement : MonoBehaviour
         dashStarttime = 0;
 
     }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit){
+        switch(hit.gameObject.tag){
+            case "SpeedBoost":
+                speed = 15f;
+                break;
+            case "JumpBoost":
+                jumpspeed = 7f;
+                doubleJumpMultiplier = 1f;
+                break;
+            case "SlowDown":
+                speed = 3f;
+                break;
+            default:
+                speed = 6f;
+                jumpspeed = 3.5f;
+                doubleJumpMultiplier = 1.2f;
+                break;
+        }
+    }
 }
