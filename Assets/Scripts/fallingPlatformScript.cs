@@ -6,21 +6,24 @@ public class fallingPlatformScript : MonoBehaviour
 {
     public Rigidbody rb;
     Vector3 originalPos;
+    public GameObject platform;
     void Start()
     {
-        originalPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        originalPos = new Vector3(platform.transform.position.x, platform.transform.position.y, platform.transform.position.z);
+        //originalPos = FindGameObjectWithTag("falling").transform.position;
+
+        Debug.Log(originalPos);
     }
 
     IEnumerator TestCoroutine()
     {
-        Debug.Log("about to yield return WaitForSeconds(1)");
-        yield return new WaitForSeconds(2);
-        Debug.Log("Just waited 1 second");
-        gameObject.transform.position = originalPos;
+        yield return new WaitForSeconds(5);
+        Debug.Log("Just waited 2 seconds");
+        
         rb.isKinematic = true;
-        Debug.Log("Just waited another second");
+        platform.transform.position = originalPos;
         yield break;
-        Debug.Log("You'll never see this"); // produces a dead code warning
+
     }
 
     void OnTriggerEnter(Collider col)
@@ -37,7 +40,7 @@ public class fallingPlatformScript : MonoBehaviour
     void drop()
     {
         rb.isKinematic = false;
-        //StartCoroutine(TestCoroutine());
+        StartCoroutine(TestCoroutine());
 
     }
 }
