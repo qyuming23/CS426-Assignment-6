@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class teleportScript : MonoBehaviour
+public class teleport2 : MonoBehaviour
 {
     public GameObject teleportTarget;
     public GameObject player;
     public AudioSource sound;
-    public AudioSource sound2;
-    public AudioSource sound3;
+
 
     IEnumerator Wait()
     {
@@ -21,7 +20,7 @@ public class teleportScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Invoke("teleport", 0f);
-            
+
         }
     }
 
@@ -30,11 +29,7 @@ public class teleportScript : MonoBehaviour
         player.transform.position = teleportTarget.transform.position;
         sound.Play();
         Debug.Log("Teleport Activated");
-        sound2.Stop();
-        sound3.Play();
-        player.SetActive(false);
-        StartCoroutine(Wait());
-        player.SetActive(true);
     }
+
 
 }
