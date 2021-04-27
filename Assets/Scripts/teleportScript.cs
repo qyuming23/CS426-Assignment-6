@@ -10,16 +10,29 @@ public class teleportScript : MonoBehaviour
     public AudioSource sound2;
     public AudioSource sound3;
 
+    IEnumerator TestCoroutine()
+    {
+        yield return new WaitForSeconds(2);
+        Debug.Log("Just waited 1 second");
+        yield break;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.transform.position = teleportTarget.transform.position;
-            sound.Play();
-            Debug.Log("Teleport Activated");
-            sound2.Stop();
-            sound3.Play();
+            Invoke("teleport", 0.5f);
         }
+    }
+
+    void teleport()
+    {
+        player.transform.position = teleportTarget.transform.position;
+        sound.Play();
+        Debug.Log("Teleport Activated");
+        sound2.Stop();
+        sound3.Play();
+
     }
 
 }
