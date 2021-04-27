@@ -32,9 +32,7 @@ public class teleportScript : MonoBehaviour
         Debug.Log("Teleport Activated");
         sound2.Stop();
         sound3.Play();
-        player.SetActive(false);
-        StartCoroutine(Wait());
-        player.SetActive(true);
+
     }
 
 }
