@@ -126,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnControllerColliderHit(ControllerColliderHit hit){
         switch(hit.gameObject.tag){
             case "SpeedBoost":
-                speed = 15f;
+                speed = 10f;
                 break;
             case "JumpBoost":
                 jumpspeed = 7f;
