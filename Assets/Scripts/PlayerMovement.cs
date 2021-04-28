@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
                 doubleJumpMultiplier = 1f;
                 break;
             case "SlowDown":
-                speed = 3f;
+                speed = 4f;
                 break;
             default:
                 speed = 6f;

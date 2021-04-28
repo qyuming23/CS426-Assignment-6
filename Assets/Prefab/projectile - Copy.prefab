@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 4625498898249277372}
   - component: {fileID: -2166318153786462609}
   - component: {fileID: -6107805892710266996}
-  - component: {fileID: 204747580248085703}
+  - component: {fileID: 5592422477719984305}
   m_Layer: 0
-  m_Name: projectile
-  m_TagString: JumpBoost
+  m_Name: projectile - Copy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 15a597ab199276f4196267863fe7ae82, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,7 +210,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &204747580248085703
+--- !u!114 &5592422477719984305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,6 +219,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2349101393534380199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8da9d5becd46fd409a6a6eff0f92c2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a44d933e61a6974da2c80bd4a400c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
