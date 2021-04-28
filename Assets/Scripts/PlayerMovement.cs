@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         else{
-            if(Input.GetButtonDown("Jump")){
+            if(Input.GetButtonDown("Jump") && canDoubleJump){
                 directionY = jumpspeed * doubleJumpMultiplier;
                 canDoubleJump = false;
                 jumpSound.Play();
