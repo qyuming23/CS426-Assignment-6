@@ -129,7 +129,7 @@ public class PlayerMovement : MonoBehaviour
                 speed = 10f;
                 break;
             case "JumpBoost":
-                jumpspeed = 6f;
+                jumpspeed = 5f;
                 doubleJumpMultiplier = 1f;
                 break;
             case "SlowDown":

@@ -7,6 +7,8 @@ public class fallingPlatformScript : MonoBehaviour
     public Rigidbody rb;
     Vector3 originalPos;
     public GameObject platform;
+    public AudioSource sound;
+
     void Start()
     {
         originalPos = new Vector3(platform.transform.position.x, platform.transform.position.y, platform.transform.position.z);
@@ -17,7 +19,7 @@ public class fallingPlatformScript : MonoBehaviour
 
     IEnumerator TestCoroutine()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         Debug.Log("Just waited 2 seconds");
         
         rb.isKinematic = true;
@@ -29,7 +31,11 @@ public class fallingPlatformScript : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
         Debug.Log("About to StartCoroutine");
-        Invoke("drop", 0.7f);
+        if (col.tag == "Player")
+        {
+            sound.Play();
+        }
+        Invoke("drop", 0.4f);
         //StartCoroutine(TestCoroutine());
         Debug.Log("Back from StartCoroutine");
         //ield return new WaitForSeconds(3);
